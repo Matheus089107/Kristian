@@ -2,5 +2,14 @@ img{
     width: 500px;
     display: block;
     margin: 40px auto;
-    border: 15px solid;
+    border: 5px solid;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+footer{
+    color: whitesmoke;
 }
