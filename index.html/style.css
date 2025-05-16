@@ -1,10 +1,8 @@
 body{
     font-family: 'Arial', 'sans-serif';
     line-height: 1.6;
-
-
 }
-    img{
+img{
     width: 500px;
     display: block;
     margin: 10px auto;
@@ -27,16 +25,18 @@ footer{
     height: 80px;
     background-color: black;
     border: 2px solid black;
-    display: flex;              
-    align-items: center;        
-    justify-content: center;    
-    color: white;                
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
     font-family: Arial, sans-serif;
     font-style: italic;
  }
  .turismo{
     color: black;
     font-style: italic;
+    text-align: center;
+
  }
  .texto_limitado{
         max-width: 600px;
@@ -44,13 +44,19 @@ footer{
         overflow-wrap : break-word;
         margin: 0 auto;
         font-weight: normal;
-         
- }.texto_corrido{
+ }
+ .texto_corrido{
     font-weight: normal;
     font-size: 18px;
     line-height: 1.6;
     color: black;
- } a{
+ }
+  a{
     text-decoration: none;
     color: black;
+ }
+ .subtitulo{
+    color: black;
+    font-style: italic;
+    text-align: center;
  }
